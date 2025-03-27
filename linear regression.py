@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import pandas as pd
-dataset=pd.read_csv(r"C:\Users\S SHYAMILI\OneDrive\Desktop\data science\Salary_Data.csv")
+dataset=pd.read_csv(r"C:\Users\S SHYAMILI\OneDrive\Desktop\data science\18th, 19th - ML\Salary_Data.csv")
 x = dataset.iloc[:, :-1]  
 y = dataset.iloc[:, -1] 
 from sklearn.model_selection import train_test_split
